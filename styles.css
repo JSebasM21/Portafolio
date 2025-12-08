@@ -302,6 +302,8 @@ body {
 .module:nth-child(2) { animation-delay: 0.2s; }
 .module:nth-child(3) { animation-delay: 0.4s; }
 .module:nth-child(4) { animation-delay: 0.6s; }
+.module:nth-child(5) { animation-delay: 0.8s; }
+.module:nth-child(6) { animation-delay: 1s; }
 
 .module-header {
     display: flex;
@@ -319,6 +321,8 @@ body {
 .module-line.cyan { background: linear-gradient(90deg, #06b6d4, #0891b2); }
 .module-line.purple { background: linear-gradient(90deg, #8b5cf6, #ec4899); }
 .module-line.emerald { background: linear-gradient(90deg, #10b981, #14b8a6); }
+.module-line.amber { background: linear-gradient(90deg, #f59e0b, #f97316); }
+.module-line.rose { background: linear-gradient(90deg, #f43f5e, #ec4899); }
 
 .module-line-full {
     flex: 1;
@@ -329,6 +333,8 @@ body {
 .module-line-full.cyan { background: linear-gradient(90deg, #06b6d4, transparent); }
 .module-line-full.purple { background: linear-gradient(90deg, #8b5cf6, transparent); }
 .module-line-full.emerald { background: linear-gradient(90deg, #10b981, transparent); }
+.module-line-full.amber { background: linear-gradient(90deg, #f59e0b, transparent); }
+.module-line-full.rose { background: linear-gradient(90deg, #f43f5e, transparent); }
 
 .module-title {
     font-size: 2.5rem;
@@ -352,6 +358,8 @@ body {
 .module-subtitle.cyan { background: linear-gradient(90deg, #06b6d4, #0891b2); }
 .module-subtitle.purple { background: linear-gradient(90deg, #8b5cf6, #ec4899); }
 .module-subtitle.emerald { background: linear-gradient(90deg, #10b981, #14b8a6); }
+.module-subtitle.amber { background: linear-gradient(90deg, #f59e0b, #f97316); }
+.module-subtitle.rose { background: linear-gradient(90deg, #f43f5e, #ec4899); }
 
 /* Grid de proyectos */
 .projects-grid {
@@ -381,6 +389,8 @@ body {
 .card-glow.cyan { background: linear-gradient(135deg, #06b6d4, #0891b2); }
 .card-glow.purple { background: linear-gradient(135deg, #8b5cf6, #ec4899); }
 .card-glow.emerald { background: linear-gradient(135deg, #10b981, #14b8a6); }
+.card-glow.amber { background: linear-gradient(135deg, #f59e0b, #f97316); }
+.card-glow.rose { background: linear-gradient(135deg, #f43f5e, #ec4899); }
 
 .project-card:hover .card-glow {
     opacity: 1;
@@ -417,6 +427,8 @@ body {
 .card-icon.cyan { background: linear-gradient(135deg, #06b6d4, #0891b2); }
 .card-icon.purple { background: linear-gradient(135deg, #8b5cf6, #ec4899); }
 .card-icon.emerald { background: linear-gradient(135deg, #10b981, #14b8a6); }
+.card-icon.amber { background: linear-gradient(135deg, #f59e0b, #f97316); }
+.card-icon.rose { background: linear-gradient(135deg, #f43f5e, #ec4899); }
 
 .project-card:hover .card-icon {
     transform: scale(1.1) rotate(5deg);
@@ -439,6 +451,8 @@ body {
 .ping.cyan { background: #06b6d4; }
 .ping.purple { background: #8b5cf6; }
 .ping.emerald { background: #10b981; }
+.ping.amber { background: #f59e0b; }
+.ping.rose { background: #f43f5e; }
 
 .dot {
     position: absolute;
@@ -449,6 +463,8 @@ body {
 .dot.cyan { background: #06b6d4; }
 .dot.purple { background: #8b5cf6; }
 .dot.emerald { background: #10b981; }
+.dot.amber { background: #f59e0b; }
+.dot.rose { background: #f43f5e; }
 
 .card-title {
     font-size: 1.5rem;
@@ -488,6 +504,8 @@ body {
 .card-link.cyan { background: linear-gradient(90deg, #06b6d4, #0891b2); }
 .card-link.purple { background: linear-gradient(90deg, #8b5cf6, #ec4899); }
 .card-link.emerald { background: linear-gradient(90deg, #10b981, #14b8a6); }
+.card-link.amber { background: linear-gradient(90deg, #f59e0b, #f97316); }
+.card-link.rose { background: linear-gradient(90deg, #f43f5e, #ec4899); }
 
 .arrow {
     margin-left: 0.5rem;
@@ -502,7 +520,7 @@ body {
 .footer-cta {
     position: relative;
     margin-top: 8rem;
-    animation: fadeInUp 1s ease-out 0.8s both;
+    animation: fadeInUp 1s ease-out 1.2s both;
 }
 
 .cta-glow {
@@ -559,6 +577,7 @@ body {
     border-radius: 9999px;
     font-size: 0.9rem;
     border: 1px solid;
+    font-weight: 600;
 }
 
 .stat-badge.purple {
@@ -571,6 +590,12 @@ body {
     background: linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(236, 72, 153, 0.2));
     border-color: rgba(6, 182, 212, 0.3);
     color: #67e8f9;
+}
+
+.stat-badge.amber {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(249, 115, 22, 0.2));
+    border-color: rgba(245, 158, 11, 0.3);
+    color: #fbbf24;
 }
 
 /* Animaciones */
@@ -685,5 +710,10 @@ body {
     .photo {
         width: 156px;
         height: 156px;
+    }
+    
+    .cta-stats {
+        flex-direction: column;
+        align-items: center;
     }
 }
