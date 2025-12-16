@@ -304,6 +304,8 @@ body {
 .module:nth-child(4) { animation-delay: 0.6s; }
 .module:nth-child(5) { animation-delay: 0.8s; }
 .module:nth-child(6) { animation-delay: 1s; }
+.module:nth-child(7) { animation-delay: 1.2s; }
+.module:nth-child(8) { animation-delay: 1.4s; }
 
 .module-header {
     display: flex;
@@ -323,6 +325,8 @@ body {
 .module-line.emerald { background: linear-gradient(90deg, #10b981, #14b8a6); }
 .module-line.amber { background: linear-gradient(90deg, #f59e0b, #f97316); }
 .module-line.rose { background: linear-gradient(90deg, #f43f5e, #ec4899); }
+.module-line.indigo { background: linear-gradient(90deg, #6366f1, #8b5cf6); }
+.module-line.teal { background: linear-gradient(90deg, #14b8a6, #06b6d4); }
 
 .module-line-full {
     flex: 1;
@@ -335,6 +339,8 @@ body {
 .module-line-full.emerald { background: linear-gradient(90deg, #10b981, transparent); }
 .module-line-full.amber { background: linear-gradient(90deg, #f59e0b, transparent); }
 .module-line-full.rose { background: linear-gradient(90deg, #f43f5e, transparent); }
+.module-line-full.indigo { background: linear-gradient(90deg, #6366f1, transparent); }
+.module-line-full.teal { background: linear-gradient(90deg, #14b8a6, transparent); }
 
 .module-title {
     font-size: 2.5rem;
@@ -360,6 +366,8 @@ body {
 .module-subtitle.emerald { background: linear-gradient(90deg, #10b981, #14b8a6); }
 .module-subtitle.amber { background: linear-gradient(90deg, #f59e0b, #f97316); }
 .module-subtitle.rose { background: linear-gradient(90deg, #f43f5e, #ec4899); }
+.module-subtitle.indigo { background: linear-gradient(90deg, #6366f1, #8b5cf6); }
+.module-subtitle.teal { background: linear-gradient(90deg, #14b8a6, #06b6d4); }
 
 /* Grid de proyectos */
 .projects-grid {
@@ -391,6 +399,8 @@ body {
 .card-glow.emerald { background: linear-gradient(135deg, #10b981, #14b8a6); }
 .card-glow.amber { background: linear-gradient(135deg, #f59e0b, #f97316); }
 .card-glow.rose { background: linear-gradient(135deg, #f43f5e, #ec4899); }
+.card-glow.indigo { background: linear-gradient(135deg, #6366f1, #8b5cf6); }
+.card-glow.teal { background: linear-gradient(135deg, #14b8a6, #06b6d4); }
 
 .project-card:hover .card-glow {
     opacity: 1;
@@ -429,6 +439,8 @@ body {
 .card-icon.emerald { background: linear-gradient(135deg, #10b981, #14b8a6); }
 .card-icon.amber { background: linear-gradient(135deg, #f59e0b, #f97316); }
 .card-icon.rose { background: linear-gradient(135deg, #f43f5e, #ec4899); }
+.card-icon.indigo { background: linear-gradient(135deg, #6366f1, #8b5cf6); }
+.card-icon.teal { background: linear-gradient(135deg, #14b8a6, #06b6d4); }
 
 .project-card:hover .card-icon {
     transform: scale(1.1) rotate(5deg);
@@ -453,6 +465,8 @@ body {
 .ping.emerald { background: #10b981; }
 .ping.amber { background: #f59e0b; }
 .ping.rose { background: #f43f5e; }
+.ping.indigo { background: #6366f1; }
+.ping.teal { background: #14b8a6; }
 
 .dot {
     position: absolute;
@@ -465,6 +479,8 @@ body {
 .dot.emerald { background: #10b981; }
 .dot.amber { background: #f59e0b; }
 .dot.rose { background: #f43f5e; }
+.dot.indigo { background: #6366f1; }
+.dot.teal { background: #14b8a6; }
 
 .card-title {
     font-size: 1.5rem;
@@ -506,6 +522,8 @@ body {
 .card-link.emerald { background: linear-gradient(90deg, #10b981, #14b8a6); }
 .card-link.amber { background: linear-gradient(90deg, #f59e0b, #f97316); }
 .card-link.rose { background: linear-gradient(90deg, #f43f5e, #ec4899); }
+.card-link.indigo { background: linear-gradient(90deg, #6366f1, #8b5cf6); }
+.card-link.teal { background: linear-gradient(90deg, #14b8a6, #06b6d4); }
 
 .arrow {
     margin-left: 0.5rem;
